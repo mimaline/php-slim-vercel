@@ -29,7 +29,7 @@ $app->get('/testbot/', function (Request $request, Response $response, array $ar
     
     require_once ("controllers/ControllerApiTelegram.php");
     
-    ControllerApiTelegram::sendMessage("Testando o BOT Jefferson de Yasmim e Fillipe e Guilherme e Bruno");
+    ControllerApiTelegram::sendMessage("Fillipe é gay");
     
     $response->getBody()->write("Enviando mensagem para o chatbot!");
 });
